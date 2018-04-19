@@ -66,14 +66,7 @@ namespace CSVtoDatabase
         {
             get
             {
-                //object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false);
-                //if (attributes.Length == 0)
-                //{
-                //    return "";
-                //}
-                //return ((AssemblyDescriptionAttribute)attributes[0]).Description;
-                string description = @"此软件或程序由罗明章所作。
-                你可以随意使用，但请不要反编译。";
+                string description = @"This software is developed by Johnny Luo. ";
                 return description;
             }
         }
@@ -95,12 +88,6 @@ namespace CSVtoDatabase
         {
             get
             {
-                //object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
-                //if (attributes.Length == 0)
-                //{
-                //    return "";
-                //}
-                //return ((AssemblyCopyrightAttribute)attributes[0]).Copyright;
                 return string.Empty;// "Octopos Co., Ltd";
             }
         }
@@ -109,12 +96,6 @@ namespace CSVtoDatabase
         {
             get
             {
-                //object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCompanyAttribute), false);
-                //if (attributes.Length == 0)
-                //{
-                //    return "";
-                //}
-                //return ((AssemblyCompanyAttribute)attributes[0]).Company;
                 return string.Empty; //"Octopos Co., Ltd";
             }
         }
