@@ -14,7 +14,8 @@ This is a piece of software can be used to import data from csv file to database
   
   4.Then the progress will be shown on the toolstripbar
   
-  if 'first line contains columns' is unchecked , the program may create a datatable.
+  if 'first line contains columns' checked ,and specified datatable does not exist, the program may create a datatable.
+  if 'first line contains columns' uncheck ,and specified datatable does not exist, errors may occur.
 
 #Export
   
