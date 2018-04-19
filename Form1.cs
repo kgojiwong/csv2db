@@ -52,6 +52,7 @@ namespace CSVtoDatabase
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            textBoxFilePath.Text = Environment.GetEnvironmentVariable("USERPROFILE");
             setLabelColor();
             listBoxDatabase.SelectedIndex = 0;
             //setDbList();
