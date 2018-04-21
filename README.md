@@ -4,6 +4,9 @@ This is a piece of software can be used to import data from csv file to database
 
 #Instruction
 
+#Binary
+  Executable file is contained in csv2db.rar csv2db.zip.
+
 #Importing
 
   1.Connect to database,select the datatable which you want to import data to.
@@ -17,7 +20,7 @@ This is a piece of software can be used to import data from csv file to database
   if 'first line contains columns' checked ,and specified datatable does not exist, the program may create a datatable.
   if 'first line contains columns' uncheck ,and specified datatable does not exist, errors may occur.
 
-#Export
+#Exporting
   
   1.Connect to database and select the datatable which you want to export data from.
   
