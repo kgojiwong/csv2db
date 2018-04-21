@@ -25,3 +25,8 @@ This is a piece of software can be used to import data from csv file to database
   1.Connect to database and select the datatable which you want to export data from.
   
   2.Click export , a dialog will pop up , specify the file name you want to export data to.
+
+
+#Contributor
+
+  Johnny Lo(明章)
